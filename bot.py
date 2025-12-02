@@ -1,7 +1,7 @@
 from aiogram import Bot, Dispatcher, executor, types
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-API_TOKEN = '8120006600:AAE6y2r91FStUNDsw0E6RXYKPWcZ7LvTEIQ'
+API_TOKEN = '8120006600:AAHuMXlrOx17hs742p25cEltLNyvVbj1uao'
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
@@ -110,5 +110,6 @@ async def about_cmd(message: types.Message):
 if __name__ == '__main__':
     print("🤖 Bot ishga tushdi...")
     executor.start_polling(dp, skip_updates=True)
+
 
 
